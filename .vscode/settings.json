@@ -1,0 +1,7 @@
+{
+    "workbench.colorCustomizations": {
+        "[Default High Contrast]": {
+            "editor.wordHighlightBackground" : "#ff0202a5"
+        }
+    }
+}
