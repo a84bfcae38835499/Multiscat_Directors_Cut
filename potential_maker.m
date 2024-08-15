@@ -52,11 +52,8 @@ holMCol = [0.0 0.7 0.9];
 nMidMo = 1/6;mMidMo = 2/6;
 moMCol = [0.8 0.5 0];
 
-%% Defect density calculations
 cellArea = const.c^2 * sqrt(1-(dot(a1,a2)/(const.c^2))^2);
 disp("Unit cell area = " + cellArea + "Å^2")
-cellAreaS = cellArea * (Nsuper^2);
-disp("Supercell area = " + cellAreaS + "Å^2")
 
 disp("Target number of sites = " + (Nsuper*Nsuper * Theta))
 Ndefect = int64(round(Nsuper*Nsuper * Theta));

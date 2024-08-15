@@ -40,7 +40,6 @@ subroutine loadfixedpot(nzfixed,nfc,vfcfixed,fourierfile)
   read(20,*)
   read(20,*)
   read(20,*)
-  read(20,*)
 
   do i=1,nfc           !loop over fourier components
     do j=1,nzfixed     !loop over z values in fourier components

@@ -252,6 +252,7 @@ program multiscat
   end do
   
   print *, '==       Programme finished :D       =='
+  print *, ''
   call cpu_time(currTime)
   print'("Total time = "F10.0" seconds")',currTime-startTotalTime
 end program multiscat
